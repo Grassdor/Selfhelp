@@ -1,0 +1,105 @@
+@media (min-width: 320px) {
+    body {
+        background: #009788;
+        padding: 0 15px;
+        font-family: Arial;
+        color: white;
+        
+    }
+    .title {
+        display: flex;
+        margin-top: 40px;
+        margin-bottom: 35px;
+        justify-content: space-between;
+        align-items: center;
+        &-name{
+            height: 51px;
+            width: 177px;
+      }
+        &-logo{
+            height: 60px;
+            width: 60px;
+            
+      }
+      }
+      .content {
+        font-size: 16px;
+        
+        &-description{
+            font-weight: 700;
+            text-align: center;
+            width: 280px;
+            margin-bottom: 15px;
+      }
+        &-list{
+            width: 260px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        > li {
+            list-style-type: disc;
+            margin-left: 20px
+        }
+      }
+      }
+      .download {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        &-button{
+            background: #fff;
+            height: 40px;
+            width: 200px;
+            border-radius: 10px;
+            display: flex;
+            > img {
+                margin: auto;
+            }
+            
+      }
+      }
+}
+@media (min-width: 1440px) {
+    body {
+        padding: 0 200px;
+    }
+    .title {
+        justify-content: space-between;
+        margin-bottom: 80px;
+        &-name{
+      height: 159px;
+      width: 614px;
+      }
+        &-logo{
+      height: 200px;
+      width: 200px;
+      }
+      }
+      .content {
+        font-size: 24px;
+        
+        &-description{
+            text-align: left;
+            width: 735px;
+            margin-bottom: 40px;
+            
+      }
+        &-list{
+            width: 814px;
+            gap: 40px;
+            
+      }
+      }
+      .download {
+        justify-content: flex-start;
+        margin-top: 60px;
+        &-button{
+      height: 60px;
+      width: 300px;
+      border-radius: 15px;
+      > img {
+        height: 60%;
+      }
+      }
+      }
+}

@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: -1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a::visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+@media (min-width: 320px) {
+  body {
+    background: #009788;
+    padding: 0 15px;
+    font-family: Arial;
+    color: white;
+  }
+  .title {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .title-name {
+    height: 51px;
+    width: 177px;
+  }
+  .title-logo {
+    height: 60px;
+    width: 60px;
+  }
+  .content {
+    font-size: 16px;
+  }
+  .content-description {
+    font-weight: 700;
+    text-align: center;
+    width: 280px;
+    margin-bottom: 15px;
+  }
+  .content-list {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .content-list > li {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  .download {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .download-button {
+    background: #fff;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+  }
+  .download-button > img {
+    margin: auto;
+  }
+}
+@media (min-width: 1440px) {
+  body {
+    padding: 0 200px;
+  }
+  .title {
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+  .title-name {
+    height: 159px;
+    width: 614px;
+  }
+  .title-logo {
+    height: 200px;
+    width: 200px;
+  }
+  .content {
+    font-size: 24px;
+  }
+  .content-description {
+    text-align: left;
+    width: 735px;
+    margin-bottom: 40px;
+  }
+  .content-list {
+    width: 814px;
+    gap: 40px;
+  }
+  .download {
+    justify-content: flex-start;
+    margin-top: 60px;
+  }
+  .download-button {
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+  }
+  .download-button > img {
+    height: 60%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
